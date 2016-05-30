@@ -1,0 +1,73 @@
+#space_one{
+	height: 100px;
+}
+
+
+#header {
+	text-align: center;
+	font-size: 500%;
+	font-family: Times;
+	color: red;
+	margin-bottom: -10px;
+}
+
+#secondHeader {
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	color: #808080;
+	font-family: Times;
+}
+
+#box_one {
+	display:inline-block;
+	width: 15%;
+	height: 7%;
+	border: 2px solid black;
+	border-radius: 5px;
+	float: left;
+	margin-left: 35%;
+}
+
+#box_two {
+	display:inline-block;
+	width: 12%;
+	height: 7%;
+	border: 2px solid red;
+	border-radius: 5px;
+	float: right;
+	margin-right: 36%;
+}
+
+#animateIt {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 110%
+}
+
+#border_line {
+	height: 1px;
+	width: 50%;
+	background-color: #808080;
+	margin-left: 25%;
+	margin-top: 8%
+}
+
+#links {
+	text-align: center;
+	color: #808080;
+}
+
+#download {
+	color: #808080;
+}
+
+
+
+
+
+
+
+
+
