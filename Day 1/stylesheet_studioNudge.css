@@ -12,16 +12,96 @@ a:hover{
 }
 
 
-div {
+#first_line {
 	height: 50px;
 	width: 110px;
 	border: none;
 	border-radius: none;
-	/*Add your CSS here!*/
 	display:inline-block;
+}
+
+#border_line {
+	height: 2px;
+	width: 100%;
+	background-color: #808080;
 }
 
 p {
 	text-align: center;
 	font-size: 150%;
 }
+
+#first_img {
+	height: 70%;
+	width: 70%;
+	position: absolute;
+	left: 160px;
+}
+
+#second_img {
+	height: 70%;
+	width: 50%;
+	position: absolute;
+	top: 820px;
+	left: 160px;
+}
+
+#third {
+	height: 70%;
+	width: 320px;
+	position: absolute;
+	top: 820px;
+	left: 547px;
+}
+
+#fourth {
+	height: 70%;
+	width: 50%;
+	position: absolute;
+	top: 1300px;
+	left: 160px;
+}
+
+#fifth {
+	height: 70%;
+	width: 20%;
+	position: absolute;
+	top: 1300px;
+	left: 665px;
+}
+
+
+
+#line_two {
+	height: 50px;
+	width: 110px;
+	border: none;
+	border-radius: none;
+	display:inline-block;
+	position: absolute;
+	top: 800px;
+}
+
+#contactOne {
+	font-size: 80%;
+	position: absolute;
+	top: 1780px;
+	left: 43%
+}
+
+
+#contactTwo {
+	font-size: 80%;
+	position: absolute;
+	top: 1800px;
+	left: 40%;
+}
+
+#gap {
+	position: absolute;
+	top: 1850px;
+	width: 10px;
+	height: 10px;
+}
+
+
