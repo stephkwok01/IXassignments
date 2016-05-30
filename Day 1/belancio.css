@@ -1,0 +1,57 @@
+#top{
+	width: 100%;
+	height: 90%;
+	border: none;
+	background-color: orange;
+}
+
+#name {
+	font-weight: bold;
+	color: white;
+	margin-left: 5%;
+	display:inline-block;
+	font-size: 120%
+}
+
+#links {
+	color: white;
+	float: right;
+	margin-right: 5%;
+	word-spacing: 55px;
+
+}
+
+#logo {
+	height: 10%;
+	width: 10%;
+	margin-left: 45%;
+}
+
+#screen {
+	height: 60%;
+	width: 30%;
+	margin-left: 35%;
+}
+
+#image {
+	height: 15%;
+	width: 15%;
+}
+
+#bottom {
+	width: 100%;
+	height: 20%;
+	border: none;
+	background-color: blue;
+}
+
+
+#box {
+	margin-top: 10px;
+	width: 15%;
+	height: 25%;
+	border: 1px solid white;
+	border-radius: 5px;
+	float: left;
+	margin-left: 40%;
+}
