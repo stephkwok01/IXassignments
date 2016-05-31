@@ -4,9 +4,9 @@ body{
 }
 
 .top{
-	background-color: #3F250B;
+	background-color: #433C34;
 	color: white;
-	height: 800px;
+	height: 650px;
 	width: 100%
 
 }
@@ -36,6 +36,11 @@ body{
 	padding-top: 2%
 }
 
+.image{
+	margin-left: 11%;
+	padding-top: 18px;
+}
+
 .clients{
 	font-size: 160%;
 	padding-top: 70px;
@@ -43,6 +48,10 @@ body{
 	margin-bottom: 30px;
 	color: #4d4d4d;
 	font-family: sans-serif;
+}
+
+.bottom-logo{
+	margin-left: 110px;
 }
 
 .bottom{
@@ -67,9 +76,53 @@ body{
 	padding-top: 15px;
 	margin-left: 40%;
 	text-align: center;
-	margin-top: 30px;
-	
+	margin-top: 30px;	
 }
+
+.top-footer{
+	background-color: #e6e6e6;
+	width: 100%;
+	height: 70px;
+}
+
+.foot-name{
+	letter-spacing: 2px;
+	color: #666666;
+	padding-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.foot-links{
+	display: inline-block;
+	margin-left: 630px;
+	word-spacing: 30px;
+	padding-top: 20px;
+	color: grey;
+	font-size: 80%;
+}
+
+.bottom-footer{
+	width: 100%;
+	height: 50px;
+}
+
+.loveCali{
+	display: inline-block;
+	font-size: 80%;
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+.copyRight{
+	display: inline-block;
+	font-size: 80%;
+	padding-top: 20px;
+	margin-left: 500px;
+}
+
+
 
 
 
