@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;	
+}
+
+.top{
+	background-color: #3F250B;
+	color: white;
+	height: 800px;
+	width: 100%
+
+}
+
+.belancio{
+	font-weight: bold;
+	font-size: 120%;
+	padding-top: 20px;
+	margin-left: 25px;
+	display: inline-block;
+}
+
+.links{
+	display: inline-block;
+	word-spacing: 20px;
+	margin-left: 600px;
+	padding-top: 20px;
+}
+
+.topLogo{
+	margin-left: 38%;
+	padding-top: 5%;
+}
+
+.slogan {
+	margin-left: 43%;
+	padding-top: 2%
+}
+
+.clients{
+	font-size: 160%;
+	padding-top: 70px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	color: #4d4d4d;
+	font-family: sans-serif;
+}
+
+.bottom{
+	width: 100%;
+	height: 200px;
+	background-color: #85DBC2;
+	margin-top: 30px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.bottom-head{
+	font-size: 180%;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.bottom-button{
+	border: 1px solid white;
+	height: 28px;
+	width: 120px;
+	padding-top: 15px;
+	margin-left: 40%;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

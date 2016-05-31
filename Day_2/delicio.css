@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-
 }
 
 .header{
@@ -26,30 +25,37 @@ body{
 
 .home {
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .about{
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .menu{
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .reservation{
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .shop {
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .news{
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .contact{
 	display: inline-block;
+	margin-right: 15px;
 }
 
 .cart{
@@ -69,12 +75,13 @@ body{
 	font-size: 60px;
 	font-family: Helvetica;
 	color: grey;
+	font-style: italic;
 }
 
 .image-subhead{
 	text-align: center;
 	margin-bottom: 30px;
-	color: white;
+	color: grey;
 }
 
 .button{
