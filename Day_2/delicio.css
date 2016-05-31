@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.header{
+	position:fixed;
+	display: inline-block;
+	height: 70px;
+	background-color: white;
+	width: 100%;
+}
+
+.logo{
+	width: 20px;
+	float left: 
+	font-weight: bold;
+	font-style: italic;
+	font-size: 150%;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	margin-right: 400px;
+}
+
+.home {
+	display: inline-block;
+}
+
+.about{
+	display: inline-block;
+}
+
+.menu{
+	display: inline-block;
+}
+
+.reservation{
+	display: inline-block;
+}
+
+.shop {
+	display: inline-block;
+}
+
+.news{
+	display: inline-block;
+}
+
+.contact{
+	display: inline-block;
+}
+
+.cart{
+	display: inline-block;
+}
+
+.image{
+	padding-top: 150px;
+	
+	padding-bottom: 100px;
+	background-image: url(http://georgianrestaurant.com/images/tbilisi-restaurants/Cafe-Cache-waiter.jpg);
+	height: 400px;
+}
+
+.image-head{
+	text-align: center;
+	font-size: 60px;
+	font-family: Helvetica;
+	color: grey;
+}
+
+.image-subhead{
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.button{
+	background-color: orange;
+	border-color: orange;
+	width: 130px;
+	height: 20px;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+.info{
+	background-color: black;
+	color: grey;
+}
+
+.directions{
+	display: inline-block;
+}
+
+.opening{
+	display: inline-block;
+}
+
+.follow-us{
+	display: inline-block;
+}
+
+.instagram{
+	display: inline-block;
+}
+
+.direc-top{
+
+}
+
+
+
+
+
+
+
