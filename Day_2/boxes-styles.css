@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  transition: .5s all ease;
+}
+
+.bigBox {
+  background: none;
+  width: 100%;
+}
+
+.bigBox > div {
+  margin: 2%;
+  background: cornflowerblue;
+  padding: 5%;
+  display: inline-block;
+  width: 40%;
+}
+
+div div:not(:empty){
+	 border: 2px solid green;
+}
+
+div:nth-child(3){
+	background-color: grey;
+
+}
+
+div:nth-child(4){
+	background-color: grey;
+}
+
+div:empty{
+	height: 10px;
+	width: 10px;
+	border-radius: 9px;
+	border: 1px solid red;
+	background-color: red;
+}
+
+input[type=checkbox]:checked + div div:not(:empty){
+	display: block;
+}
+
+
+
+
+
+
+
