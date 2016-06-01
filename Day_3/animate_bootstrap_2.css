@@ -12,8 +12,29 @@ h1{
 	color: #E35F36  
 }
 
+
 .lead{
 	color: grey;
 	font-size: 23px;
 	padding-bottom: 15px;
+	padding-bottom:15px
+}
+
+.animate_button{
+	width: 130px; 
+	border: 2px 
+	solid #E35F36; 
+	color: #E35F36; 
+	background-color: white;
+}
+
+.link_one{
+	color: grey; 
+	padding-top:3px;
+}
+
+.link_two{
+ 	padding-top: 15px; 
+ 	font-size: 13px; 
+ 	color: #676564;
 }
