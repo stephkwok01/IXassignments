@@ -1,0 +1,19 @@
+.container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+h1{
+	font-size: 80px;
+	padding-top: 130px;
+	padding-bottom: 25px;
+	color: #E35F36  
+}
+
+.lead{
+	color: grey;
+	font-size: 23px;
+	padding-bottom: 15px;
+}
