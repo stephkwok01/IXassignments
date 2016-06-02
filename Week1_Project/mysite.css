@@ -1,0 +1,170 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container-nav{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*HOME PAGE*/
+.home-body{
+	background: url(home-image.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-name{
+	font-size: 95px;
+	color: white;
+	font-family: cursive;
+	padding-top: 200px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.home-links{
+	color: white;
+	font-family: Lucida Console;
+	font-size: 22px;
+}
+
+.home-home{
+	margin-left: 200px;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+/* PROFILE PAGE */
+.profile_intro{
+	font-size: 70px;
+	padding-left: 90px;
+	padding-top: 80px;
+	font-family: Lucida Console;
+}
+
+.line1{
+	height: 20px;
+	width: 400px;
+	margin-top: 30px;
+	float: right;
+	border: 2px solid #515767;
+	background-color: #515767;
+	border-radius: 2px;
+}
+
+.line2{
+	height: 8px;
+	width: 550px;
+	margin-top: 10px;
+	float: right; 
+	border: 2px solid #323439;
+	background-color: #323439;
+	border-radius: 2px;
+}
+
+.aboutMe{
+	padding-top: 80px;
+	padding-left: 120px;
+	font-size: 17px;
+}
+
+.profile_image {
+	height: 420px;
+	padding-top: 40px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+/* TRAVEL PAGE */
+.costa-image{
+	position: relative;
+}
+
+.costa-rica{
+	height: 320px;
+	padding-top: 30px;
+}
+
+.hover-costa{
+	height: 270px;
+	width: 800px;
+	background-color: white;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	text-align: center;
+	padding-top: 25%;
+	font-size: 20px;
+	opacity: 0;
+}
+
+.hover-costa:hover{
+	opacity: 0.5;
+}
+
+.sa{
+	height: 400px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+/*.cape-image{
+	position: relative;
+	display: inline-block;
+}
+
+.hover-cape{
+	position: absolute;
+	height: 360px;
+	width: 450px;
+	background-color: white;
+	left: 30px;
+	top: 25px;
+	text-align: center;
+	padding-top: 30%;
+	font-size: 20px;
+	opacity: 0;
+	display: inline-block;
+}*/
+
+.hover-cape:hover{
+	opacity: 0.5;
+}
+
+.japan{
+	height: 400px;
+	left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.argentina{
+	width: 600px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+.travel{
+	font-family: Lucida Console;
+	font-size: 70px;
+	padding-top: 130px;
+	font-weight: bold;
+	padding-left: 60px;
+}
+
+@media(min-width:768px) {
+	.container-nav{
+		margin-left: 170px;
+	}
+}
