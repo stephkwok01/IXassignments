@@ -33,7 +33,7 @@ body{
 }
 
 .home-home{
-	margin-left: 200px;
+	margin-left: 250px;
 }
 
 a{
@@ -51,6 +51,7 @@ a:hover{
 	padding-left: 90px;
 	padding-top: 80px;
 	font-family: Lucida Console;
+	font-weight: bold;
 }
 
 .line1{
@@ -87,9 +88,9 @@ a:hover{
 }
 
 /* TRAVEL PAGE */
-.costa-image{
+/*.costa-image{
 	position: relative;
-}
+}*/
 
 .costa-rica{
 	height: 320px;
@@ -107,10 +108,12 @@ a:hover{
 	padding-top: 25%;
 	font-size: 20px;
 	opacity: 0;
+	font-family: cursive;
+	transition: all 0.2s;
 }
 
 .hover-costa:hover{
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
 .sa{
@@ -119,28 +122,45 @@ a:hover{
 	display: inline-block;
 }
 
-/*.cape-image{
-	position: relative;
+.hover-osaka{
+	position: absolute;
+	height: 373px;
+	width: 295px;
+	background-color: white;
+	left: 33px;
+	top: 18px;
+	text-align: center;
+	padding-top: 46%;
+	font-size: 20px;
+	opacity: 0;
 	display: inline-block;
+	font-family: cursive;
+	transition: all 0.2s;
 }
 
+.hover-osaka:hover{
+	opacity: 0.6;
+}
 .hover-cape{
 	position: absolute;
-	height: 360px;
-	width: 450px;
+	height: 370px;
+	width: 465px;
 	background-color: white;
-	left: 30px;
-	top: 25px;
+	left: 25px;
+	top: 20px;
 	text-align: center;
 	padding-top: 30%;
 	font-size: 20px;
 	opacity: 0;
 	display: inline-block;
-}*/
+	font-family: cursive;
+	transition: all 0.2s;
+}
 
 .hover-cape:hover{
-	opacity: 0.5;
+	opacity: 0.6;
 }
+
 
 .japan{
 	height: 400px;
@@ -149,18 +169,101 @@ a:hover{
 	padding-left: 10px;
 }
 
-.argentina{
+.hover-osaka{
+	position: absolute;
+	height: 373px;
+	width: 295px;
+	background-color: white;
+	left: 33px;
+	top: 18px;
+	text-align: center;
+	padding-top: 46%;
+	font-size: 20px;
+	opacity: 0;
+	display: inline-block;
+	font-family: cursive;
+	transition: all 0.2s;
+}
+
+.hover-osaka:hover{
+	opacity: 0.6;
+}
+
+
+.peru{
 	width: 600px;
 	padding-top: 10px;
 	margin-bottom: 30px;
 }
 
+.hover-huaraz{
+	position: absolute;
+	height: 381px;
+	width: 581px;
+	background-color: white;
+	left: 25px;
+	top: 18px;
+	text-align: center;
+	padding-top: 33%;
+	font-size: 20px;
+	opacity: 0;
+	display: inline-block;
+	font-family: cursive;
+	transition: all 0.2s;
+}
+
+.hover-huaraz:hover{
+	opacity: 0.6;
+}
+
 .travel{
 	font-family: Lucida Console;
 	font-size: 70px;
-	padding-top: 130px;
+	padding-top: 100px;
 	font-weight: bold;
-	padding-left: 60px;
+	padding-left: 70px;
+}
+
+.experience{
+	font-size: 30px;
+	font-family: Lucida Console;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.oneasia{
+	font-size: 15px;
+	padding-top: 17px;
+	padding-left: 80px;
+}
+
+.oneasia-image{
+	padding-left: 20px;
+	width: 180px;
+}
+
+
+.newtech-image{
+	padding-left: 20px;
+	padding-top: 50px;
+} 
+
+.projects{
+	font-size: 30px;
+	font-family: Lucida Console;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
+.research-title{
+	font-size: 18px;
+	padding-left: 50px;
+	padding-top: 15px;
+}
+
+.research-body{
+	padding-left: 50px;
+	padding-top: 10px;
 }
 
 @media(min-width:768px) {
@@ -168,3 +271,15 @@ a:hover{
 		margin-left: 170px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
