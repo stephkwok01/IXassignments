@@ -20,7 +20,7 @@ app.controller("MainCtrl",function ($scope) {
 	//validate number
 		var numsplit = $scope.newNumber.split("-");
 		if (numsplit.length !== 3){
-			$scope.myNum = "Please enter a valid number";
+			$scope.myNum = "Please enter a valid number XXX-XXX-XXXX";
 			invalid++;
 		}
 		else if (numsplit[0].length !== 3 || numsplit[0] === NaN){
@@ -57,7 +57,7 @@ app.controller("MainCtrl",function ($scope) {
 		}
 
 	//validate password
-		if ($scope.newPassword.length < 7){
+		if ($scope.newPassword.length < 6){
 			$scope.myPassword = "Password too short";
 			invalid++;
 		}
