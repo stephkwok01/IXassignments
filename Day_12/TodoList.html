@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo List</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="./TodoList.js"></script>
+
+</head>
+<body ng-app="TodoApp" ng-controller="MainCtrl">
+	<form ng-submit="addItem()">
+		<input type ="text" class="form-control" ng-model="newItem">
+	</form>
+<ol>
+	<li ng-repeat="Item in Items" ng-click="deleteItem(Item)"> {{Item}} </li>
+</ol>
+<!-- <button ng-click="deleteItem()">Delete last item
+</button> -->
+
+
+
+</body>
+</html 
