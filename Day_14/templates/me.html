@@ -1,0 +1,13 @@
+<div ng-controllers="meCtrl">
+  <h2>Love me</h2>
+  <a href="#/">Back to feed</a>
+
+  <ul class="myself">
+  	<p ng-repeat="item in me"> {{item.text}} 
+  	<br>
+  	Positivity: {{item.positivity_score}}
+  	<br>
+  	</p>
+  </ul>
+
+</div>
