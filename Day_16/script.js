@@ -18,7 +18,6 @@ app.controller("FeedCtrl", function($scope, $http, $firebaseArray, $timeout) {
   $scope.brus = $firebaseArray(bruRef);
   $scope.newProp = {};
 
-
   $scope.addProp = function() {
     $scope.successMessage = "";
     $scope.errorMessage = "";
@@ -26,14 +25,18 @@ app.controller("FeedCtrl", function($scope, $http, $firebaseArray, $timeout) {
       console.log($scope.newProp);
       //make sure sentiment is positive
       $http({
-        method:"POST",
-        url: "https://twinword-sentiment-analysis.p.mashape.com/analyze/",
-        headers:{"X-Mashape-Key": "PbStp7XTqcmshozwb4sA09AZRaTEp1qKVYHjsnE0LcKWj66qWd",
-        "Accept": "application/json", },
-        data: "text=" + $scope.newProp.text,
-      }).then(function(response){
+        method: "GET",
+        url: "https://twinword-sentiment-analysis.p.mashape.com/analyze/?text=" + $scope.newProp.text,
+        headers: { 
+                "X-Mashape-Key": "vRCyNb1GSDmshH1wdJ4YRG5QM8oVp10uWfwjsnzere3HiJYfCq" ,
+                "Content-Type": "application/x-www-form-urlencoded",
+               "Accept" : "application/json"
+        }
+    }).then(function(response) {
         console.log(response);
-      })
+        // console.log($scope.newProp.text);
+        // $scope.brus = response.data;
+    });
 
       $scope.props.$add($scope.newProp);
       $scope.newProp = {};
